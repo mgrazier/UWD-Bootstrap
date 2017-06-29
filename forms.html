@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>Bootstrap Forms</title>
+
+        <!-- Normalize.css -->
+        <link rel="stylesheet" type="text/css" href="normalize.css">
+        <!-- Bootstrap -->
+        <link href="Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom styles -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <!--[if IE]>
+        <script src="http//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="page-header">
+                <h1>Bootstrap Forms</h1>
+                <p class="lead">Let's work with some sexy, pre-styled forms, shall we?</p>
+                </div><!-- page-header -->
+            
+            <div class="row">
+                <div class="col-sm-4">
+                
+                <form>
+                    <div class="form-group">
+                        <label for="formName">Your Name</label>
+                        <input type="text" id="formName" class="form-control">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="formEmail">Email Address</label>
+                        <input type="text" id="formEmail" class="form-control">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="formMessage">Your Message</label>
+                        <textarea rows="4" class="form-control"></textarea>
+                    </div>
+                    
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox"> Checkbox
+                        </label>
+                    </div>
+                    
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="formRadio"> Radio input #1
+                        </label><br>
+                        <label>
+                            <input type="radio" name="formRadio"> Radio input #2
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-inverse">Submit</button>
+                    
+                </form>
+                </div><!-- col-sm-6 -->
+                <div class="col-sm-8">
+                    <form class="form-inline">
+                        <div class="form-group">
+                            <label for="loginEmail" class="sr-only">Email</label>
+                            <div class="input-group">
+                                <div class="input-group-addon">@</div>
+                                <input id="loginEmail" type="email" class="form-control" placeholder="Email Address">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="loginPassword" class="sr-only">Password</label>
+                            <input id="loginPassword" type="password" class="form-control" placeholder="Password">
+                        </div>
+                    </form>
+                    
+                </div>
+            </div><!-- row --> 
+            
+            <div class="row">
+                <div class="col-sm-6">
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <label class="col-sm-3">First Name</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+        </div><!-- container -->
+    </body>
+</html>
